@@ -359,7 +359,7 @@ h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 30px;
+    font-size: 36px;
     line-height: 36px;
   }
   #hero h2 {
