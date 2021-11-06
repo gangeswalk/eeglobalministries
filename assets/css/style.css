@@ -1344,7 +1344,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #7cc576;
+  background: rgba(44, 82, 89, 0.9);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1352,7 +1352,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #61b959;
+  background: rgba(211, 99, 29, 0.9);
 }
 
 .contact h2 {
