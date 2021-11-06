@@ -10,7 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #555555;
+  /* color: #555555; */
+  color: rgba(211, 99, 29, 0.9);
 }
 
 a {
@@ -25,7 +26,7 @@ a:hover {
 
 h1, h2 {
   font-family: "Baskerville"
-}
+  }
 
 h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
@@ -438,6 +439,10 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.about h2 {
+  color: rgba(44, 82, 89, 1.0);
 }
 
 /*--------------------------------------------------------------
@@ -1083,6 +1088,10 @@ section {
   transition: bottom ease-in-out 0.4s;
 }
 
+.team h2{
+  color: rgba(44, 82, 89, 1.0);
+}
+
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
@@ -1345,6 +1354,11 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #61b959;
 }
+
+.contact h2 {
+  color: rgba(44, 82, 89, 1.0);
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
