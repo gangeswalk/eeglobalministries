@@ -1070,7 +1070,7 @@ section {
   height: 40px;
   opacity: 0;
   transition: bottom ease-in-out 0.4s;
-  background: rgba(124, 197, 118, 0.8);
+  background: rgba(44, 82, 89, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1171,7 +1171,7 @@ section {
   padding-bottom: 16px;
 }
 .pricing .box ul i {
-  color: #7cc576;
+  color: rgba(44, 82, 89, 1.0);
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1188,7 +1188,7 @@ section {
   padding: 10px 40px 12px 40px;
   border-radius: 5px;
   border: 2px solid #7cc576;
-  color: #7cc576;
+  color: rgba(44, 82, 89, 1.0);
   font-size: 14px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
@@ -1196,14 +1196,14 @@ section {
   transition: 0.3s;
 }
 .pricing .box .btn-buy:hover {
-  background: #7cc576;
+  background: rgba(44, 82, 89, 1.0);
   color: #fff;
 }
 .pricing .recommended {
-  border-color: #7cc576;
+  border-color: rgba(44, 82, 89, 1.0);
 }
 .pricing .recommended .btn-buy {
-  background: #7cc576;
+  background: rgba(44, 82, 89, 1.0);
   color: #fff;
 }
 .pricing .recommended .btn-buy:hover {
@@ -1219,7 +1219,7 @@ section {
   font-size: 12px;
   padding: 4px 25px 6px 25px;
   background: #eaf6e9;
-  color: #7cc576;
+  color: rgba(44, 82, 89, 1.0);
   border-radius: 50px;
   text-transform: uppercase;
   font-weight: 600;
@@ -1240,7 +1240,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #7cc576;
+  font-family: rgba(44, 82, 89, 1.0);
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1264,7 +1264,7 @@ section {
   color: #343a40;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #7cc576;
+  color: rgba(44, 82, 89, 1.0);
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -1339,7 +1339,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: rgba(44, 82, 89, 1.0);
   /* border: 3px solid rgba(44, 82, 89, 0.08); */
   text-align: center;
   padding: 15px;
