@@ -486,7 +486,7 @@ section {
 .services .icon-box i {
   font-size: 48px;
   float: left;
-  color: #7cc576;
+  color: rgba(44, 82, 89, 1.0);
 }
 .services .icon-box p {
   font-size: 15px;
@@ -522,7 +522,7 @@ section {
   transition: 0.3s;
 }
 .featured .nav-link:hover h4 {
-  color: #7cc576;
+  color: rgba(44, 82, 89, 1.0);
 }
 .featured .nav-link p {
   font-size: 14px;
@@ -532,7 +532,7 @@ section {
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.08);
 }
 .featured .nav-link.active h4 {
-  color: #7cc576;
+  color: rgba(44, 82, 89, 1.0);
 }
 .featured .tab-pane.active {
   -webkit-animation: slide-down 0.5s ease-out;
@@ -612,7 +612,7 @@ section {
   cursor: pointer;
 }
 .why-us .accordion-list span {
-  color: #7cc576;
+  color: rgba(44, 82, 89, 1.0);
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -634,7 +634,7 @@ section {
   color: #343a40;
 }
 .why-us .accordion-list a.collapsed:hover {
-  color: #7cc576;
+  color: rgba(44, 82, 89, 1.0);
 }
 .why-us .accordion-list a.collapsed .icon-show {
   display: inline-block;
@@ -645,7 +645,7 @@ section {
 .why-us .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#7cc576 50%, rgba(124, 197, 118, 0.4) 52%);
+  background: radial-gradient(rgba(44, 82, 89, 1.0) 50%, rgba(124, 197, 118, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -773,7 +773,7 @@ section {
   border-radius: 4px;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #7cc576;
+  background: rgba(44, 82, 89, 1.0);
   color: #fff;
 }
 .portfolio #portfolio-flters li:last-child {
@@ -863,7 +863,7 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #7cc576;
+  color: rgba(44, 82, 89, 1.0);
 }
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
@@ -962,11 +962,11 @@ section {
   margin-bottom: 30px;
 }
 .testimonials .quote-icon i {
-  color: #7cc576;
+  color: rgba(44, 82, 89, 1.0);
   font-size: 24px;
   padding: 18px;
   border-radius: 50px;
-  border: 2px solid #7cc576;
+  border: 2px solid rgba(44, 82, 89, 1.0);
 }
 .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
   overflow: hidden;
@@ -1008,7 +1008,7 @@ section {
   background-color: rgba(255, 255, 255, 0.4);
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #7cc576;
+  background-color: rgba(44, 82, 89, 1.0);
 }
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
