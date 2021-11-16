@@ -78,7 +78,8 @@ h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #fff;
+  /* background: #fff; */
+  background: #fef1e1;
   box-shadow: 0 4px 10px -3px rgba(191, 191, 191, 0.5);
 }
 #header .logo h1 {
