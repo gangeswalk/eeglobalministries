@@ -1679,15 +1679,15 @@ End of Partners
 
 
 /*--------------------------------------------------------------
-# Footer2
+# Subscription
 --------------------------------------------------------------*/
-#footer2 {
+#subscription {
   /* background: url("../img/footer-bg.jpg") center center no-repeat; */
   color: #d3631d;
   font-size: 14px;
   position: relative;
 }
-#footer2::before {
+#subscription::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1697,17 +1697,17 @@ End of Partners
   background: #fef1e1;
   z-index: 1;
 }
-#footer2 .footer-top {
+#subscription .footer-top {
   position: relative;
   z-index: 2;
   text-align: center;
   padding: 80px 0;
 }
-#footer2 .footer-top .footer-logo img {
+#subscription .footer-top .footer-logo img {
   height: 100px;
   margin-bottom: 20px;
 }
-#footer2 .footer-top h3 {
+#subscription .footer-top h3 {
   font-size: 36px;
   font-weight: 700;
   color: #fff;
@@ -1716,18 +1716,18 @@ End of Partners
   padding: 30px 0 0 0;
   margin-bottom: 0;
 }
-#footer2 .footer-top p {
+#subscription .footer-top p {
   font-size: 16px;
   font-style: italic;
   margin: 0px 0 0 0;
   padding: 0;
 }
-#footer2 .footer-top .footer-newsletter {
+#subscription .footer-top .footer-newsletter {
   text-align: center;
   font-size: 15px;
   margin-top: 30px;
 }
-#footer2 .footer-top .footer-newsletter form {
+#subscription .footer-top .footer-newsletter form {
   background: #fff;
   padding: 6px 10px;
   position: relative;
@@ -1735,12 +1735,12 @@ End of Partners
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
-#footer2 .footer-top .footer-newsletter form input[type=email] {
+#subscription .footer-top .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
-#footer2 .footer-top .footer-newsletter form input[type=submit] {
+#subscription .footer-top .footer-newsletter form input[type=submit] {
   position: absolute;
   top: 0;
   right: -1px;
@@ -1755,13 +1755,13 @@ End of Partners
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-#footer2 .footer-top .footer-newsletter form input[type=submit]:hover {
+#subscription .footer-top .footer-newsletter form input[type=submit]:hover {
   background: rgba(211, 99, 29, 1.1);
 }
-#footer2 .footer-top .social-links {
+#subscription .footer-top .social-links {
   margin-top: 30px;
 }
-#footer2 .footer-top .social-links a {
+#subscription .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: rgba(44, 82, 89, 1.1);
@@ -1775,31 +1775,31 @@ End of Partners
   height: 36px;
   transition: 0.3s;
 }
-#footer2 .footer-top .social-links a:hover {
+#subscription .footer-top .social-links a:hover {
   background: rgba(211, 99, 29, 0.9);
   color: #fff;
   text-decoration: none;
 }
-#footer2 .footer-bottom {
+#subscription .footer-bottom {
   border-top: 1px solid #222222;
   z-index: 2;
   position: relative;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-#footer2 .copyright {
+#subscription .copyright {
   text-align: center;
 }
-#footer2 .credits {
+#subscription .credits {
   text-align: center;
   font-size: 13px;
   padding-top: 5px;
 }
 
-#footer2 p {
+#subscription p {
   color: #d3631d
 }
 
-#footer2 h2 {
+#subscription h2 {
   font-weight: 550;
 }
