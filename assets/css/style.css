@@ -300,11 +300,16 @@ h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 40vh;
   /* background: black; */
   /* background: rgba(254, 241, 225, 1.0); */
   /* background: rgba(211, 99, 29, 0.8); */
-  background: rgba(44, 82, 89, 0.8);
+  background: #fef1e1;
+  border-bottom: 1px solid #2c5259;
+  
+  
+
+  
 
   /* background: url("../img/eegm/2014-odisha-bright.png") top right; */
   background-size: cover;
@@ -322,6 +327,7 @@ h3, h4, h5, h6 {
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
+  
 }
 #hero .hero-logo {
   margin-bottom: 30px;
@@ -420,6 +426,13 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+
+.about {
+  background: #fef1e1;
+  border-bottom:1px solid #2c5259;
+}
+
+
 .about .image {
   padding: 20px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -477,6 +490,85 @@ section {
   color: #fff;
   background: rgba(44, 82, 89, 0.9);
 }
+
+/* ----------
+# Partners
+---------- */
+
+.partners {
+  background: #fef1e1;
+  border-bottom:1px solid #2c5259;
+}
+
+.partners h2 {
+  color: rgba(44, 82, 89, 1.0);
+}
+
+
+.partners .image {
+  padding: 20px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.partners .content h3 {
+  padding: 30px;
+  font-weight: 600;
+  font-size: 26px;
+}
+.partners .content ul {
+  list-style: none;
+  padding: 0;
+}
+.partners .content ul li {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.partners .content ul i {
+  font-size: 24px;
+  padding: 2px 6px 0 0;
+  color: rgba(211, 99, 29, 0.9);
+}
+.partners .content p:last-child {
+  margin-bottom: 0;
+}
+
+.partners h2 {
+  color: rgba(44, 82, 89, 1.0);
+}
+
+.partners .visit {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 5px;
+  margin: 10px;
+  color: #fff;
+  background: rgba(211, 99, 29, 0.9);
+}
+
+.partners .donate {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 5px;
+  margin: 10px;
+  color: #fff;
+  background: rgba(44, 82, 89, 0.9);
+}
+
+
+/* ---------------
+End of Partners
+--------------- */
 
 /*--------------------------------------------------------------
 # Services
@@ -1053,7 +1145,8 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background: #fef1e1;
+  border-bottom:1px solid #2c5259;
   padding: 60px 0;
 }
 .team .member {
@@ -1063,7 +1156,7 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 .team .member .social {
   position: absolute;
@@ -1279,6 +1372,13 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.contact {
+  background: #fef1e1;
+  /* border-bottom: 1px solid #2c5259; */
+}
+
+
 .contact .info {
   width: 100%;
   height: 100%;
@@ -1466,14 +1566,14 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(44, 82, 89, 0.9);
+  background: #fef1e1;
   z-index: 1;
 }
 #footer .footer-top {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 40px 0;
+  padding: 0px 0;
 }
 #footer .footer-top .footer-logo img {
   height: 100px;
@@ -1521,14 +1621,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: rgba(44, 82, 89, 1.0);
+  background: #fef1e1;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: rgba(211, 99, 29, 1.1);
+  background: #fef1e1;
 }
 #footer .footer-top .social-links {
   margin-top: 30px;
@@ -1582,7 +1682,7 @@ section {
 --------------------------------------------------------------*/
 #footer2 {
   /* background: url("../img/footer-bg.jpg") center center no-repeat; */
-  color: rgba(211, 99, 29, 1.1);
+  color: #d3631d;
   font-size: 14px;
   position: relative;
 }
@@ -1593,7 +1693,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(44, 82, 89, 0.9);
+  background: #fef1e1;
   z-index: 1;
 }
 #footer2 .footer-top {
@@ -1696,7 +1796,7 @@ section {
 }
 
 #footer2 p {
-  color: rgba(254, 241, 225, 1.0)
+  color: #d3631d
 }
 
 #footer2 h2 {
