@@ -696,7 +696,7 @@ End of Partners
 }
 
 #subscription .hr {
-  margin:0px 50px 0px 50px; 
+  margin:0px 50px 70px 50px; 
   background-color: #2c5259; 
   height:1px;
 }
@@ -786,15 +786,6 @@ End of Partners
   color: #fff;
   text-decoration: none;
 }
-/* #subscription .subscription-bottom {
-  border-top: 1px solid #222222;
-  z-index: 2;
-  position: relative;
-  padding-top: 40px;
-  padding-bottom: 40px;
-} */
-
-
 
 #subscription p {
   color: #d3631d
