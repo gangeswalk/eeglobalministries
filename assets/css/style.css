@@ -711,37 +711,29 @@ End of Partners
   background: #fef1e1;
   z-index: 1;
 }
-#subscription .footer-top {
+#subscription .subscription-top {
   position: relative;
   z-index: 2;
   text-align: center;
   padding: 80px 0;
 }
-#subscription .footer-top .footer-logo img {
+#subscription .subscription-top .subscription-logo img {
   height: 100px;
   margin-bottom: 20px;
 }
-#subscription .footer-top h3 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #fff;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  padding: 30px 0 0 0;
-  margin-bottom: 0;
-}
-#subscription .footer-top p {
+
+#subscription .subscription-top p {
   font-size: 16px;
   font-style: italic;
   margin: 0px 0 0 0;
   padding: 0;
 }
-#subscription .footer-top .footer-newsletter {
+#subscription .subscription-top .subscription-newsletter {
   text-align: center;
   font-size: 15px;
   margin-top: 30px;
 }
-#subscription .footer-top .footer-newsletter form {
+#subscription .subscription-top .subscription-newsletter form {
   background: #fff;
   padding: 6px 10px;
   position: relative;
@@ -749,12 +741,12 @@ End of Partners
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
-#subscription .footer-top .footer-newsletter form input[type=email] {
+#subscription .subscription-top .subscription-newsletter form input[type=email] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
-#subscription .footer-top .footer-newsletter form input[type=submit] {
+#subscription .subscription-top .subscription-newsletter form input[type=submit] {
   position: absolute;
   top: 0;
   right: -1px;
@@ -769,7 +761,7 @@ End of Partners
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-#subscription .footer-top .footer-newsletter form input[type=submit]:hover {
+#subscription .subscription-top .subscription-newsletter form input[type=submit]:hover {
   background: rgba(211, 99, 29, 1.1);
 }
 #subscription .footer-top .social-links {
@@ -789,18 +781,18 @@ End of Partners
   height: 36px;
   transition: 0.3s;
 }
-#subscription .footer-top .social-links a:hover {
+#subscription .subscription-top .social-links a:hover {
   background: rgba(211, 99, 29, 0.9);
   color: #fff;
   text-decoration: none;
 }
-#subscription .footer-bottom {
+/* #subscription .subscription-bottom {
   border-top: 1px solid #222222;
   z-index: 2;
   position: relative;
   padding-top: 40px;
   padding-bottom: 40px;
-}
+} */
 
 
 
@@ -808,9 +800,7 @@ End of Partners
   color: #d3631d
 }
 
-#subscription h2 {
-  font-weight: 550;
-}
+
 
 
 
