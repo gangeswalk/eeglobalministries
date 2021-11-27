@@ -1,7 +1,3 @@
-Version: 4.6.0
-  - Updated Bootstrap to version 5.1.2
-  - Updated all outdated third party vendor libraries to their latest versions
-
 Version: 4.5.0
   - Fixed slider issue in testimonials and portfolio details sections
 
